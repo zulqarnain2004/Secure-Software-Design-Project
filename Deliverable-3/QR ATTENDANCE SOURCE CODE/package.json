@@ -1,0 +1,21 @@
+{
+    "name": "qr-attendance-system",
+    "version": "1.0.0",
+    "description": "Secure QR-Based Attendance Management System",
+    "private": true,
+    "scripts": {
+        "dev": "node api/index.js",
+        "vercel-build": "echo build done"
+    },
+    "dependencies": {
+        "@libsql/client": "^0.14.0",
+        "bcryptjs": "^3.0.3",
+        "cookie-parser": "^1.4.7",
+        "cors": "^2.8.5",
+        "express": "^4.21.0",
+        "express-rate-limit": "^8.5.0",
+        "jsonwebtoken": "^9.0.2",
+        "qrcode": "^1.5.4",
+        "uuid": "^10.0.0"
+    }
+}

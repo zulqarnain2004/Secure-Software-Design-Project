@@ -1,0 +1,1746 @@
+
+
+[33m[1m+===========================================================================================================================================================================================+[0m
+
+
+[31m[1mDEPRECATED: [0m[33m[1mthis command (`check`) has been DEPRECATED, and will be unsupported beyond 01 June 2024.[0m
+
+
+[32mWe highly encourage switching to the new [0m[32m[1m`scan`[0m[32m command which is easier to use, more powerful, and can be set up to mimic the deprecated command if required.[0m
+
+
+[33m[1m+===========================================================================================================================================================================================+[0m
+
+
++==============================================================================+
+
+                               /$$$$$$            /$$
+                              /$$__  $$          | $$
+           /$$$$$$$  /$$$$$$ | $$  \__//$$$$$$  /$$$$$$   /$$   /$$
+          /$$_____/ |____  $$| $$$$   /$$__  $$|_  $$_/  | $$  | $$
+         |  $$$$$$   /$$$$$$$| $$_/  | $$$$$$$$  | $$    | $$  | $$
+          \____  $$ /$$__  $$| $$    | $$_____/  | $$ /$$| $$  | $$
+          /$$$$$$$/|  $$$$$$$| $$    |  $$$$$$$  |  $$$$/|  $$$$$$$
+         |_______/  \_______/|__/     \_______/   \___/   \____  $$
+                                                          /$$  | $$
+                                                         |  $$$$$$/
+  by safetycli.com                                        \______/
+
++==============================================================================+
+
+ [1mREPORT[0m 
+
+  Safety [1mv3.7.0[0m is scanning for [1mVulnerabilities[0m[1m...[0m
+[1m  Scanning dependencies[0m in your [1menvironment:[0m
+
+  -> /usr/lib/python3.13/dist-packages
+  -> /home/kali/.local/lib/python3.13/site-packages
+  -> /usr/lib/python3/dist-packages
+
+  Using [1mopen-source vulnerability database[0m
+[1m  Found and scanned 690 packages[0m
+  Timestamp [1m2026-05-05 08:31:13[0m
+[1m  139[0m[1m vulnerabilities reported[0m
+[1m  0[0m[1m vulnerabilities ignored[0m
+
++==============================================================================+
+ [1mVULNERABILITIES REPORTED[0m 
++==============================================================================+
+
+[31m-> Vulnerability found in mitmproxy version 11.0.0[0m
+[1m   Vulnerability ID: [0mSFTY-20250825-14031
+[1m   Affected spec: [0m<=12.1.1
+[1m   ADVISORY: [0mmitmproxy 12.1.1 and below embed python-hyper/h2 ≤
+   v4.2.0, which has a gap in its HTTP/2 header validation. This enables...
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/SFTY-20250825-14031/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id
+   SFTY-20250825-14031 in safety’s ignore command-line argument or add the
+   ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in mitmproxy version 11.0.0[0m
+[1m   Vulnerability ID: [0m74913
+[1m   Affected spec: [0m<11.0.1
+[1m   ADVISORY: [0mAffected versions of mitmproxy are potentially
+   vulnerable to HTTP request smuggling. To mitigate this issue, users...
+[1m   PVE-2025-74913[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/74913/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 74913 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in mitmproxy version 11.0.0[0m
+[1m   Vulnerability ID: [0m76341
+[1m   Affected spec: [0m<11.1.2
+[1m   ADVISORY: [0mIn mitmweb 11.1.0 and below, a malicious client can use
+   mitmweb's proxy server (bound to *:8080 by default) to access mitmweb's...
+[1m   CVE-2025-23217[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/76341/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 76341 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in virtualenv version 20.27.0[0m
+[1m   Vulnerability ID: [0m84416
+[1m   Affected spec: [0m<20.36.1
+[1m   ADVISORY: [0mAffected versions of the virtualenv package (up to and
+   including 20.36.1) are vulnerable to Race Condition (TOCTOU) attacks...
+[1m   CVE-2026-22702[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/84416/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 84416 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in marshmallow version 3.20.1[0m
+[1m   Vulnerability ID: [0m83159
+[1m   Affected spec: [0m>=3.0.0rc1,<3.26.2
+[1m   ADVISORY: [0mAffected versions of the marshmallow package are
+   vulnerable to Denial of Service (DoS) due to inefficient merging of...
+[1m   CVE-2025-68480[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/83159/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 83159 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pypdf version 4.3.1[0m
+[1m   Vulnerability ID: [0m89026
+[1m   Affected spec: [0m<6.8.0
+[1m   ADVISORY: [0mAffected versions of the pypdf package are vulnerable to
+   Denial of Service (DoS) due to unbounded memory allocation based on...
+[1m   CVE-2026-31826[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/89026/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 89026 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pypdf version 4.3.1[0m
+[1m   Vulnerability ID: [0m84345
+[1m   Affected spec: [0m<6.6.0
+[1m   ADVISORY: [0mAffected versions of the pypdf package are vulnerable to
+   Denial of Service (DoS) due to inefficient cross-reference table...
+[1m   CVE-2026-22691[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/84345/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 84345 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pypdf version 4.3.1[0m
+[1m   Vulnerability ID: [0m84344
+[1m   Affected spec: [0m<6.6.0
+[1m   ADVISORY: [0mAffected versions of the pypdf package are vulnerable to
+   Denial of Service (DoS) due to unbounded Root-object recovery work...
+[1m   CVE-2026-22690[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/84344/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 84344 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pypdf version 4.3.1[0m
+[1m   Vulnerability ID: [0m86802
+[1m   Affected spec: [0m<6.7.1
+[1m   ADVISORY: [0mAffected versions of the pypdf package are vulnerable to
+   Denial of Service (DoS) due to an infinite loop when traversing cyclic...
+[1m   CVE-2026-27024[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/86802/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 86802 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pypdf version 4.3.1[0m
+[1m   Vulnerability ID: [0m86803
+[1m   Affected spec: [0m<6.7.1
+[1m   ADVISORY: [0mAffected versions of the pypdf package are vulnerable to
+   Denial of Service (DoS) due to unbounded processing of unusually large...
+[1m   CVE-2026-27025[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/86803/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 86803 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pypdf version 4.3.1[0m
+[1m   Vulnerability ID: [0m86804
+[1m   Affected spec: [0m<6.7.1
+[1m   ADVISORY: [0mAffected versions of the pypdf package are vulnerable to
+   Denial of Service (DoS) due to unbounded byte-by-byte recovery...
+[1m   CVE-2026-27026[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/86804/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 86804 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pypdf version 4.3.1[0m
+[1m   Vulnerability ID: [0m88029
+[1m   Affected spec: [0m<6.7.5
+[1m   ADVISORY: [0mAffected versions of the pypdf package are vulnerable to
+   Denial of Service (DoS) due to inefficient algorithmic complexity in...
+[1m   CVE-2026-28804[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/88029/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 88029 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pypdf version 4.3.1[0m
+[1m   Vulnerability ID: [0m89812
+[1m   Affected spec: [0m<6.9.1
+[1m   ADVISORY: [0mAffected versions of the pypdf package are vulnerable to
+   Denial of Service (DoS) due to inefficient decoding of array-based...
+[1m   CVE-2026-33123[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/89812/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 89812 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pypdf version 4.3.1[0m
+[1m   Vulnerability ID: [0m78709
+[1m   Affected spec: [0m<6.0.0
+[1m   ADVISORY: [0mAffected versions of the pypdf package are vulnerable to
+   Denial of Service (DoS) due to unbounded decompression of FlateDecode-...
+[1m   CVE-2025-55197[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/78709/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 78709 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pypdf version 4.3.1[0m
+[1m   Vulnerability ID: [0m80589
+[1m   Affected spec: [0m<6.1.3
+[1m   ADVISORY: [0mAffected versions of the pypdf package are vulnerable to
+   Denial of Service (DoS) due to an infinite loop in the DCTDecode inline...
+[1m   CVE-2025-62707[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/80589/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 80589 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pypdf version 4.3.1[0m
+[1m   Vulnerability ID: [0m80590
+[1m   Affected spec: [0m<6.1.3
+[1m   ADVISORY: [0mAffected versions of the pypdf package are vulnerable to
+   Denial of Service (DoS) due to unbounded decompression of LZWDecode...
+[1m   CVE-2025-62708[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/80590/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 80590 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pypdf version 4.3.1[0m
+[1m   Vulnerability ID: [0m87621
+[1m   Affected spec: [0m<6.7.3
+[1m   ADVISORY: [0mAffected versions of the pypdf package are vulnerable to
+   Denial of Service (DoS) due to uncontrolled memory allocation during...
+[1m   CVE-2026-27888[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/87621/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 87621 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pypdf version 4.3.1[0m
+[1m   Vulnerability ID: [0m81877
+[1m   Affected spec: [0m<6.4.0
+[1m   ADVISORY: [0mAffected versions of the pypdf package are vulnerable to
+   Denial of Service (DoS) due to insufficient limiting of memory usage...
+[1m   CVE-2025-66019[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/81877/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 81877 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pypdf version 4.3.1[0m
+[1m   Vulnerability ID: [0m85196
+[1m   Affected spec: [0m<6.6.2
+[1m   ADVISORY: [0mAffected versions of the pypdf package are vulnerable to
+   Denial of Service (DoS) due to missing cycle detection when traversing...
+[1m   CVE-2026-24688[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/85196/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 85196 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pypdf version 4.3.1[0m
+[1m   Vulnerability ID: [0m88009
+[1m   Affected spec: [0m<6.7.4
+[1m   ADVISORY: [0mAffected versions of the pypdf package are vulnerable to
+   Denial of Service (DoS) due to uncontrolled memory allocation while...
+[1m   CVE-2026-28351[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/88009/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 88009 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pypdf version 4.3.1[0m
+[1m   Vulnerability ID: [0m87482
+[1m   Affected spec: [0m<6.7.2
+[1m   ADVISORY: [0mAffected versions of the pypdf package are vulnerable to
+   Denial of Service (DoS) due to missing cycle detection when following...
+[1m   CVE-2026-27628[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/87482/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 87482 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pypdf version 4.3.1[0m
+[1m   Vulnerability ID: [0m90571
+[1m   Affected spec: [0m<6.9.2
+[1m   ADVISORY: [0mAffected versions of the pypdf package are vulnerable to
+   Denial of Service (DoS) due to an infinite loop caused by improper...
+[1m   CVE-2026-33699[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/90571/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 90571 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in markdown2 version 2.4.11[0m
+[1m   Vulnerability ID: [0m73672
+[1m   Affected spec: [0m<2.5.1
+[1m   ADVISORY: [0mAffected versions of markdown2 are vulnerable to Cross-
+   Site Scripting (XSS) — CWE-79 — through image URL injection. This...
+[1m   PVE-2024-73672[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/73672/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 73672 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in markdown2 version 2.4.11[0m
+[1m   Vulnerability ID: [0m73644
+[1m   Affected spec: [0m<2.5.1
+[1m   ADVISORY: [0mAffected versions of markdown2 are vulnerable to Cross-
+   Site Scripting (XSS): CWE-79. This vulnerability allows attackers to...
+[1m   PVE-2024-73644[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/73644/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 73644 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in markdown2 version 2.4.11[0m
+[1m   Vulnerability ID: [0m78454
+[1m   Affected spec: [0m<2.5.4
+[1m   ADVISORY: [0mAffected versions of the python‑markdown2 package are
+   vulnerable to Cross‑site Scripting (XSS) in safe_mode due to improper...
+[1m   PVE-2025-78454[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/78454/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 78454 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in markdown2 version 2.4.11[0m
+[1m   Vulnerability ID: [0m78544
+[1m   Affected spec: [0m<2.5.4
+[1m   ADVISORY: [0mAffected versions of the python‑markdown2 package are
+   vulnerable to a potential Regular Expression Denial of Service (ReDoS)....
+[1m   PVE-2025-78544[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/78544/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 78544 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in xmltodict version 0.13.0[0m
+[1m   Vulnerability ID: [0m79408
+[1m   Affected spec: [0m<0.15.1
+[1m   ADVISORY: [0mAffected versions of the xmltodict package are
+   vulnerable to Improper Input Validation due to insufficient validation...
+[1m   CVE-2025-9375[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/79408/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 79408 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in python-multipart version 0.0.9[0m
+[1m   Vulnerability ID: [0m85155
+[1m   Affected spec: [0m<0.0.22
+[1m   ADVISORY: [0mAffected versions of the python-multipart package are
+   vulnerable to Path Traversal due to unsafe filesystem path construction...
+[1m   CVE-2026-24486[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/85155/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 85155 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in python-multipart version 0.0.9[0m
+[1m   Vulnerability ID: [0m74427
+[1m   Affected spec: [0m<0.0.18
+[1m   ADVISORY: [0mAffected versions of python-multipart are vulnerable to
+   Allocation of Resources Without Limits or Throttling (CWE-770). An...
+[1m   CVE-2024-53981[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/74427/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 74427 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in regex version 2024.7.24[0m
+[1m   Vulnerability ID: [0m78558
+[1m   Affected spec: [0m<2025.2.10
+[1m   ADVISORY: [0mAffected versions of this package are potentially
+   vulnerable to Regular Expression Denial of Service (ReDoS) due to...
+[1m   PVE-2025-78558[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/78558/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 78558 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m83967
+[1m   Affected spec: [0m<3.13.3
+[1m   ADVISORY: [0mAffected versions of the aiohttp package are vulnerable
+   to Denial of Service (DoS) due to improper enforcement of request size...
+[1m   CVE-2025-69228[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/83967/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 83967 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m83957
+[1m   Affected spec: [0m<3.13.3
+[1m   ADVISORY: [0mAffected versions of the aiohttp package are vulnerable
+   to Request Smuggling due to Unicode digit matching in the Range header...
+[1m   CVE-2025-69225[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/83957/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 83957 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m83959
+[1m   Affected spec: [0m<3.13.3
+[1m   ADVISORY: [0mAffected versions of the aiohttp package are vulnerable
+   to Denial of Service (DoS) due to relying on Python assert statements...
+[1m   CVE-2025-69227[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/83959/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 83959 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m83958
+[1m   Affected spec: [0m<3.13.3
+[1m   ADVISORY: [0mAffected versions of the aiohttp package are vulnerable
+   to Information Disclosure due to static-file path normalisation...
+[1m   CVE-2025-69226[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/83958/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 83958 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m83955
+[1m   Affected spec: [0m<3.13.3
+[1m   ADVISORY: [0mAffected versions of the aiohttp package are vulnerable
+   to Denial of Service (DoS) due to unbounded decompression of highly...
+[1m   CVE-2025-69223[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/83955/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 83955 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m83956
+[1m   Affected spec: [0m<3.13.3
+[1m   ADVISORY: [0mAffected versions of the aiohttp package are vulnerable
+   to Request Smuggling due to inconsistent Unicode processing of non-...
+[1m   CVE-2025-69224[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/83956/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 83956 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m83969
+[1m   Affected spec: [0m<3.13.3
+[1m   ADVISORY: [0mAffected versions of the aiohttp package are vulnerable
+   to Denial of Service (DoS) due to excessive warning-level logging when...
+[1m   CVE-2025-69230[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/83969/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 83969 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m83968
+[1m   Affected spec: [0m<3.13.3
+[1m   ADVISORY: [0mAffected versions of the aiohttp package are vulnerable
+   to Denial of Service (DoS) due to excessive blocking CPU usage when...
+[1m   CVE-2025-69229[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/83968/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 83968 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m91356
+[1m   Affected spec: [0m<=3.13.3
+[1m   ADVISORY: [0mAffected versions of the aiohttp package are vulnerable
+   to Denial of Service (DoS) due to an unbounded DNS cache in...
+[1m   CVE-2026-34513[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/91356/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 91356 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m91427
+[1m   Affected spec: [0m<=3.13.3
+[1m   ADVISORY: [0mAffected versions of the aiohttp package are vulnerable
+   to HTTP Response Splitting due to the default C parser (llhttp)...
+[1m   CVE-2026-34520[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/91427/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 91427 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m91358
+[1m   Affected spec: [0m<=3.13.3
+[1m   ADVISORY: [0mAffected versions of the aiohttp package are vulnerable
+   to Server-Side Request Forgery (SSRF) and Information Disclosure due to...
+[1m   CVE-2026-34515[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/91358/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 91358 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m91424
+[1m   Affected spec: [0m<=3.13.3
+[1m   ADVISORY: [0mAffected versions of the aiohttp package are vulnerable
+   to Denial of Service due to late enforcement of the client_max_size...
+[1m   CVE-2026-34517[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/91424/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 91424 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m91357
+[1m   Affected spec: [0m<=3.13.3
+[1m   ADVISORY: [0mAffected versions of the aiohttp package are vulnerable
+   to CRLF Injection due to insufficient sanitization of the content_type...
+[1m   CVE-2026-34514[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/91357/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 91357 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m91426
+[1m   Affected spec: [0m<=3.13.3
+[1m   ADVISORY: [0mAffected versions of the aiohttp package are vulnerable
+   to HTTP Response Splitting due to improper neutralisation of carriage...
+[1m   CVE-2026-34519[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/91426/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 91426 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0mSFTY-20260401-83301
+[1m   Affected spec: [0m<=3.13.3
+[1m   ADVISORY: [0m### SummaryInsufficient restrictions in header/trailer
+   handling could cause uncapped memory usage.### ImpactAn application...
+[1m   CVE-2026-22815[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/SFTY-20260401-83301/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id
+   SFTY-20260401-83301 in safety’s ignore command-line argument or add the
+   ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m91425
+[1m   Affected spec: [0m<=3.13.3
+[1m   ADVISORY: [0mAffected versions of the aiohttp package are vulnerable
+   to Information Disclosure due to improper handling of sensitive headers...
+[1m   CVE-2026-34518[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/91425/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 91425 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m91410
+[1m   Affected spec: [0m<=3.13.3
+[1m   ADVISORY: [0mAffected versions of the aiohttp package are vulnerable
+   to Denial of Service due to insufficient size restrictions on multipart...
+[1m   CVE-2026-34516[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/91410/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 91410 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m74251
+[1m   Affected spec: [0m>=2.0.0rc1,<3.10.11
+[1m   ADVISORY: [0mAffected versions of aiohttp are vulnerable to HTTP
+   Request Smuggling (CWE-444). This vulnerability allows attackers to...
+[1m   CVE-2024-52304[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/74251/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 74251 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m74252
+[1m   Affected spec: [0m>=3.10.6,<3.10.11
+[1m   ADVISORY: [0mAffected versions of aiohttp are vulnerable to
+   Middleware Cache Pollution. This vulnerability allows attackers to...
+[1m   CVE-2024-52303[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/74252/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 74252 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m91428
+[1m   Affected spec: [0m<3.13.4
+[1m   ADVISORY: [0mAffected versions of the aiohttp package are vulnerable
+   to HTTP Request Smuggling due to the acceptance of duplicate Host...
+[1m   CVE-2026-34525[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/91428/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 91428 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in aiohttp version 3.10.10[0m
+[1m   Vulnerability ID: [0m78162
+[1m   Affected spec: [0m<3.12.14
+[1m   ADVISORY: [0mAIOHTTP is an asynchronous HTTP client/server framework
+   for asyncio and Python. Prior to version 3.12.14, the Python parser is...
+[1m   CVE-2025-53643[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/78162/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 78162 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in webob version 1.8.7[0m
+[1m   Vulnerability ID: [0m72631
+[1m   Affected spec: [0m<1.8.8
+[1m   ADVISORY: [0mThe WebOb affected versions have a critical security
+   vulnerability related to improper handling of the HTTP Location header...
+[1m   CVE-2024-42353[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/72631/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 72631 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in flask version 3.0.3[0m
+[1m   Vulnerability ID: [0m86909
+[1m   Affected spec: [0m<3.1.3
+[1m   ADVISORY: [0mAffected versions of the Flask package are vulnerable to
+   Information Disclosure due to missing cache-variation headers when the...
+[1m   CVE-2026-27205[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/86909/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 86909 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pyjwt version 2.7.0[0m
+[1m   Vulnerability ID: [0m89028
+[1m   Affected spec: [0m<2.12.0
+[1m   ADVISORY: [0mAffected versions of this package are vulnerable to
+   Insufficient Verification of Data Authenticity. The library does not...
+[1m   CVE-2026-32597[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/89028/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 89028 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in jinja2 version 3.1.3[0m
+[1m   Vulnerability ID: [0m76378
+[1m   Affected spec: [0m<3.1.5
+[1m   ADVISORY: [0mAn oversight in how the Jinja sandboxed environment
+   detects calls to str.format allows an attacker who controls the content...
+[1m   CVE-2024-56326[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/76378/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 76378 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in jinja2 version 3.1.3[0m
+[1m   Vulnerability ID: [0m74735
+[1m   Affected spec: [0m>=3.0.0a1,<3.1.5
+[1m   ADVISORY: [0mA vulnerability in the Jinja compiler allows an attacker
+   who can control both the content and filename of a template to execute...
+[1m   CVE-2024-56201[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/74735/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 74735 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in jinja2 version 3.1.3[0m
+[1m   Vulnerability ID: [0m71591
+[1m   Affected spec: [0m<3.1.4
+[1m   ADVISORY: [0mJinja is an extensible templating engine. The `xmlattr`
+   filter in affected versions of Jinja accepts keys containing non-...
+[1m   CVE-2024-34064[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/71591/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 71591 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in jinja2 version 3.1.3[0m
+[1m   Vulnerability ID: [0m75976
+[1m   Affected spec: [0m<3.1.6
+[1m   ADVISORY: [0mPrior to 3.1.6, an oversight in how the Jinja sandboxed
+   environment interacts with the |attr filter allows an attacker that...
+[1m   CVE-2025-27516[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/75976/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 75976 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in python-socketio version 5.11.2[0m
+[1m   Vulnerability ID: [0m80185
+[1m   Affected spec: [0m>=0.8.0,<5.14.0
+[1m   ADVISORY: [0mAffected versions of the python-socketio package are
+   vulnerable to Deserialization of Untrusted Data due to unsafe use of...
+[1m   CVE-2025-61765[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/80185/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 80185 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in ujson version 5.10.0[0m
+[1m   Vulnerability ID: [0m89808
+[1m   Affected spec: [0m>=5.1.0,<=5.11.0
+[1m   ADVISORY: [0mAffected versions of the ujson package are vulnerable to
+   Denial of Service (DoS) due to integer overflow and underflow in...
+[1m   CVE-2026-32875[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/89808/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 89808 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in ujson version 5.10.0[0m
+[1m   Vulnerability ID: [0m89807
+[1m   Affected spec: [0m>=5.4.0,<=5.11.0
+[1m   ADVISORY: [0mAffected versions of the ujson package are vulnerable to
+   Denial of Service (DoS) due to missing release of memory when parsing...
+[1m   CVE-2026-32874[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/89807/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 89807 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in fonttools version 4.54.1[0m
+[1m   Vulnerability ID: [0m88739
+[1m   Affected spec: [0m<4.62.0
+[1m   ADVISORY: [0mAffected versions of the fonttools package are
+   vulnerable to Arbitrary Code Execution due to the use of Python's...
+[1m   PVE-2026-88739[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/88739/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 88739 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in fonttools version 4.54.1[0m
+[1m   Vulnerability ID: [0m82065
+[1m   Affected spec: [0m<4.61.0
+[1m   ADVISORY: [0mAffected versions of this package are vulnerable to path
+   traversal due to improper handling of file paths. The `varLib.main`...
+[1m   CVE-2025-66034[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/82065/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 82065 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pyopenssl version 24.2.1[0m
+[1m   Vulnerability ID: [0m89484
+[1m   Affected spec: [0m>=22.0.0,<26.0.0
+[1m   ADVISORY: [0mAffected versions of the pyOpenSSL package are
+   vulnerable to Classic Buffer Overflow due to missing length validation...
+[1m   CVE-2026-27459[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/89484/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 89484 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pyopenssl version 24.2.1[0m
+[1m   Vulnerability ID: [0m89421
+[1m   Affected spec: [0m>=0.14.0,<26.0.0
+[1m   ADVISORY: [0mAffected versions of the pyOpenSSL package are
+   vulnerable to Improper Input Validation due to a failure to securely...
+[1m   CVE-2026-27448[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/89421/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 89421 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in redis version 4.3.4[0m
+[1m   Vulnerability ID: [0m53869
+[1m   Affected spec: [0m>=4.2.0rc1,<4.4.4
+[1m   ADVISORY: [0mRedis 4.4.4 and 4.5.4 include a fix for CVE-2023-28859:
+   Redis-py before 4.4.4 and 4.5.x before 4.5.4 leaves a connection open...
+[1m   CVE-2023-28859[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/53869/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 53869 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in redis version 4.3.4[0m
+[1m   Vulnerability ID: [0m53868
+[1m   Affected spec: [0m>=4.2.0rc1,<4.3.6
+[1m   ADVISORY: [0mAn Off-by-one flaw was found in Redis. Affected versions
+   leave a connection open after canceling an async Redis command at an...
+[1m   CVE-2023-28858[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/53868/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 53868 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in h11 version 0.14.0[0m
+[1m   Vulnerability ID: [0m76903
+[1m   Affected spec: [0m<0.16.0
+[1m   ADVISORY: [0mA leniency in h11's parsing of line terminators in
+   chunked-coding message bodies can lead to request smuggling...
+[1m   CVE-2025-43859[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/76903/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 76903 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in filelock version 3.16.1[0m
+[1m   Vulnerability ID: [0m84183
+[1m   Affected spec: [0m<3.20.3
+[1m   ADVISORY: [0mAffected versions of this package are vulnerable to
+   Time-of-Check Time-of-Use (TOCTOU) Race Condition. The file locking...
+[1m   PVE-2026-84183[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/84183/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 84183 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in filelock version 3.16.1[0m
+[1m   Vulnerability ID: [0m84415
+[1m   Affected spec: [0m<3.20.3
+[1m   ADVISORY: [0mAffected versions of the filelock package are vulnerable
+   to a Time-of-Check Time-of-Use (TOCTOU) Race Condition due to a race...
+[1m   CVE-2026-22701[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/84415/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 84415 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in filelock version 3.16.1[0m
+[1m   Vulnerability ID: [0m82754
+[1m   Affected spec: [0m<3.20.1
+[1m   ADVISORY: [0mAffected versions of this package are vulnerable to a
+   TOCTOU (Time-of-Check to Time-of-Use) symlink vulnerability due to...
+[1m   CVE-2025-68146[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/82754/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 82754 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pynacl version 1.5.0[0m
+[1m   Vulnerability ID: [0mSFTY-20251231-64884
+[1m   Affected spec: [0m<1.6.2
+[1m   ADVISORY: [0mlibsodium before ad3004e, in atypical use cases
+   involving certain custom cryptography or untrusted data to...
+[1m   CVE-2025-69277[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/SFTY-20251231-64884/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id
+   SFTY-20251231-64884 in safety’s ignore command-line argument or add the
+   ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pygments version 2.18.0[0m
+[1m   Vulnerability ID: [0mSFTY-20260322-35073
+[1m   Affected spec: [0m<2.20.0
+[1m   ADVISORY: [0mA security flaw has been discovered in pygments before
+   2.20.0. The impacted element is the function AdlLexer of the file...
+[1m   CVE-2026-4539[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/SFTY-20260322-35073/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id
+   SFTY-20260322-35073 in safety’s ignore command-line argument or add the
+   ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in werkzeug version 3.0.4[0m
+[1m   Vulnerability ID: [0m73969
+[1m   Affected spec: [0m<3.0.6
+[1m   ADVISORY: [0mAffected versions of Werkzeug are vulnerable to Path
+   Traversal (CWE-22) on Windows systems running Python versions below...
+[1m   CVE-2024-49766[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/73969/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 73969 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in werkzeug version 3.0.4[0m
+[1m   Vulnerability ID: [0m73889
+[1m   Affected spec: [0m<3.0.6
+[1m   ADVISORY: [0mAffected versions of Werkzeug are potentially vulnerable
+   to resource exhaustion when parsing file data in forms. Applications...
+[1m   CVE-2024-49767[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/73889/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 73889 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in werkzeug version 3.0.4[0m
+[1m   Vulnerability ID: [0m86908
+[1m   Affected spec: [0m<3.1.6
+[1m   ADVISORY: [0mAffected versions of the Werkzeug package are vulnerable
+   to Denial of Service (DoS) due to improper handling of Windows special...
+[1m   CVE-2026-27199[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/86908/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 86908 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in werkzeug version 3.0.4[0m
+[1m   Vulnerability ID: [0m82196
+[1m   Affected spec: [0m<3.1.4
+[1m   ADVISORY: [0mAffected versions of the Werkzeug package are vulnerable
+   to Denial of Service (DoS) due to improper handling of Windows special...
+[1m   CVE-2025-66221[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/82196/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 82196 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in werkzeug version 3.0.4[0m
+[1m   Vulnerability ID: [0m84324
+[1m   Affected spec: [0m<3.1.5
+[1m   ADVISORY: [0mAffected versions of the Werkzeug package are vulnerable
+   to Improper Handling of Windows Device Names due to incomplete...
+[1m   CVE-2026-21860[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/84324/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 84324 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m85661
+[1m   Affected spec: [0m>=4.2a1,<4.2.28
+[1m   ADVISORY: [0mAffected versions of the Django package are vulnerable
+   to SQL Injection due to improper sanitization of band index parameters...
+[1m   CVE-2026-1207[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/85661/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 85661 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m85659
+[1m   Affected spec: [0m>=4.2a1,<4.2.28
+[1m   ADVISORY: [0mAffected versions of the Django package are vulnerable
+   to Information Disclosure (Timing Attack) due to non-constant-time...
+[1m   CVE-2025-13473[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/85659/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 85659 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m85663
+[1m   Affected spec: [0m>=4.2a1,<4.2.28
+[1m   ADVISORY: [0mAffected versions of the Django package are vulnerable
+   to SQL Injection due to improper handling of control characters in...
+[1m   CVE-2026-1287[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/85663/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 85663 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m85662
+[1m   Affected spec: [0m>=4.2a1,<4.2.28
+[1m   ADVISORY: [0mAffected versions of the Django package are vulnerable
+   to Denial of Service (DoS) due to quadratic time complexity during HTML...
+[1m   CVE-2026-1285[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/85662/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 85662 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m77686
+[1m   Affected spec: [0m<4.2.22
+[1m   ADVISORY: [0mAn issue was discovered in Django 5.2 before 5.2.3, 5.1
+   before 5.1.11, and 4.2 before 4.2.23. Internal HTTP response logging...
+[1m   CVE-2025-48432[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/77686/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 77686 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m85664
+[1m   Affected spec: [0m<4.2.28
+[1m   ADVISORY: [0mAffected versions of the Django package are vulnerable
+   to SQL Injection due to improper handling of column aliases containing...
+[1m   CVE-2026-1312[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/85664/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 85664 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m85660
+[1m   Affected spec: [0m<4.2.28
+[1m   ADVISORY: [0mAffected versions of the Django package are vulnerable
+   to Denial of Service (DoS) due to inefficient string concatenation when...
+[1m   CVE-2025-14550[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/85660/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 85660 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m80044
+[1m   Affected spec: [0m>=4.2,<4.2.25
+[1m   ADVISORY: [0mAffected versions of the Django package are vulnerable
+   to Path Traversal due to improper validation of archive member paths...
+[1m   CVE-2025-59682[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/80044/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 80044 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m80041
+[1m   Affected spec: [0m>=4.2,<4.2.25
+[1m   ADVISORY: [0mAffected versions of the Django package are vulnerable
+   to SQL Injection due to insufficient neutralization of user-controlled...
+[1m   CVE-2025-59681[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/80041/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 80041 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m77119
+[1m   Affected spec: [0m<4.2.21
+[1m   ADVISORY: [0mAn issue was discovered in Django 4.2 before 4.2.21, 5.1
+   before 5.1.9, and 5.2 before 5.2.1. The django.utils.html.strip_tags()...
+[1m   CVE-2025-32873[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/77119/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 77119 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0mSFTY-20260303-51924
+[1m   Affected spec: [0m>=4.2,<4.2.29
+[1m   ADVISORY: [0mAn issue was discovered in 6.0 before 6.0.3, 5.2 before
+   5.2.12, and 4.2 before 4.2.29.Race condition in file-system storage and...
+[1m   CVE-2026-25674[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/SFTY-20260303-51924/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id
+   SFTY-20260303-51924 in safety’s ignore command-line argument or add the
+   ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m75744
+[1m   Affected spec: [0m>=4.2a1,<4.2.20
+[1m   ADVISORY: [0mAffected versions of Django are vulnerable to a
+   potential denial-of-service in django.utils.text.wrap(). The...
+[1m   CVE-2025-26699[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/75744/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 75744 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m81270
+[1m   Affected spec: [0m<4.2.26
+[1m   ADVISORY: [0mCVE-2025-64459: Affected versions of the Django package
+   are vulnerable to SQL Injection due to improper input validation,...
+[1m   CVE-2025-64459[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/81270/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 81270 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m81269
+[1m   Affected spec: [0m<4.2.26
+[1m   ADVISORY: [0mCVE-2025-64458: Affected versions of the Django package
+   are vulnerable to Denial of Service (DoS) due to slow Unicode NFKC...
+[1m   CVE-2025-64458[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/81269/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 81269 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m74985
+[1m   Affected spec: [0m>=4.2a1,<4.2.18
+[1m   ADVISORY: [0mAffected versions of Django are vulnerable to a
+   potential denial-of-service attack due to improper IPv6 validation. The...
+[1m   CVE-2024-56374[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/74985/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 74985 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m82187
+[1m   Affected spec: [0m<4.2.27
+[1m   ADVISORY: [0mDjango fixes potential SQL injection in
+   ``FilteredRelation`` column aliases on PostgreSQL.
+[1m   CVE-2025-13372[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/82187/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 82187 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m82188
+[1m   Affected spec: [0m<4.2.27
+[1m   ADVISORY: [0mDjango fixes a potential denial-of-service vulnerability
+   in XML ``Deserializer``.
+[1m   CVE-2025-64460[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/82188/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 82188 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m74396
+[1m   Affected spec: [0m<4.2.17
+[1m   ADVISORY: [0mDjango affected versions are vulnerable to a potential
+   SQL injection in the HasKey(lhs, rhs) lookup on Oracle databases. The...
+[1m   CVE-2024-53908[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/74396/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 74396 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m74395
+[1m   Affected spec: [0m<4.2.17
+[1m   ADVISORY: [0mAffected versions of Django are vulnerable to a
+   potential denial-of-service (DoS) attack in the...
+[1m   CVE-2024-53907[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/74395/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 74395 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in django version 4.2.16[0m
+[1m   Vulnerability ID: [0m79173
+[1m   Affected spec: [0m<4.2.24
+[1m   ADVISORY: [0mAffected versions of the Django package are vulnerable
+   to SQL Injection due to insufficient input sanitization in...
+[1m   CVE-2025-57833[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/79173/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 79173 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in starlette version 0.41.2[0m
+[1m   Vulnerability ID: [0m78279
+[1m   Affected spec: [0m>=0.13.5,<0.47.2
+[1m   ADVISORY: [0mAffected versions of the `starlette` package are
+   vulnerable to Denial of Service (DoS) due to improper handling of large...
+[1m   CVE-2025-54121[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/78279/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 78279 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in starlette version 0.41.2[0m
+[1m   Vulnerability ID: [0m80876
+[1m   Affected spec: [0m<0.49.1
+[1m   ADVISORY: [0mAffected versions of the Starlette package are
+   vulnerable to Denial of Service (DoS) due to inefficient Range header...
+[1m   CVE-2025-62727[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/80876/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 80876 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in cryptography version 43.0.0[0m
+[1m   Vulnerability ID: [0m90749
+[1m   Affected spec: [0m<46.0.6
+[1m   ADVISORY: [0mAffected versions of the cryptography package are
+   vulnerable to Improper Certificate Validation due to incomplete...
+[1m   CVE-2026-34073[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/90749/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 90749 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in cryptography version 43.0.0[0m
+[1m   Vulnerability ID: [0m76170
+[1m   Affected spec: [0m>=42.0.0,<44.0.1
+[1m   ADVISORY: [0mPyca/cryptography's wheels include a statically linked
+   copy of OpenSSL. The versions of OpenSSL included in cryptography...
+[1m   CVE-2024-12797[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/76170/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 76170 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in cryptography version 43.0.0[0m
+[1m   Vulnerability ID: [0m86217
+[1m   Affected spec: [0m<46.0.5
+[1m   ADVISORY: [0mAffected versions of the cryptography package are
+   vulnerable to Improper Input Validation due to missing prime-order...
+[1m   CVE-2026-26007[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/86217/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 86217 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pyasn1 version 0.6.0[0m
+[1m   Vulnerability ID: [0m89623
+[1m   Affected spec: [0m<0.6.3
+[1m   ADVISORY: [0mAffected versions of the pyasn1 package are vulnerable
+   to Denial of Service (DoS) due to uncontrolled recursion when decoding...
+[1m   CVE-2026-30922[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/89623/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 89623 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in gevent version 24.2.1[0m
+[1m   Vulnerability ID: [0m76839
+[1m   Affected spec: [0m<25.4.2
+[1m   ADVISORY: [0mAffected versions of gevent were potentially vulnerable
+   to HTTP request smuggling. The issue existed in the pywsgi...
+[1m   PVE-2025-76839[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/76839/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 76839 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in gevent version 24.2.1[0m
+[1m   Vulnerability ID: [0m73655
+[1m   Affected spec: [0m<24.10.1
+[1m   ADVISORY: [0mAffected versions of gevent are potentially vulnerable
+   to a Race Condition leading to Unauthorized Access — CWE-362.
+[1m   PVE-2024-73655[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/73655/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 73655 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pycares version 4.4.0[0m
+[1m   Vulnerability ID: [0m77741
+[1m   Affected spec: [0m<4.9.0
+[1m   ADVISORY: [0mAffected versions of this package are vulnerable to Use-
+   After-Free attacks due to a race condition between Python's garbage...
+[1m   PVE-2025-77741[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/77741/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 77741 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in tornado version 6.4.1[0m
+[1m   Vulnerability ID: [0m91714
+[1m   Affected spec: [0m<6.5.5
+[1m   ADVISORY: [0mAffected versions of the tornado package are vulnerable
+   to Cookie Attribute Injection due to incomplete validation of values...
+[1m   CVE-2026-35536[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/91714/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 91714 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in tornado version 6.4.1[0m
+[1m   Vulnerability ID: [0m89032
+[1m   Affected spec: [0m<6.5.5
+[1m   ADVISORY: [0mAffected versions of the Tornado package are vulnerable
+   to Denial of Service (DoS) due to uncontrolled multipart parsing...
+[1m   CVE-2026-31958[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/89032/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 89032 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in tornado version 6.4.1[0m
+[1m   Vulnerability ID: [0mSFTY-20260311-32282
+[1m   Affected spec: [0m<=6.5.4
+[1m   ADVISORY: [0mValues passed to the `domain`, `path`, and `samesite`
+   arguments of `RequestHandler.set_cookie` were not completely validated...
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/SFTY-20260311-32282/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id
+   SFTY-20260311-32282 in safety’s ignore command-line argument or add the
+   ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in tornado version 6.4.1[0m
+[1m   Vulnerability ID: [0m74439
+[1m   Affected spec: [0m<6.4.2
+[1m   ADVISORY: [0mTornado web framework affected versions contain a
+   performance vulnerability in their HTTP cookie parser. When processing...
+[1m   CVE-2024-52804[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/74439/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 74439 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in tornado version 6.4.1[0m
+[1m   Vulnerability ID: [0m77319
+[1m   Affected spec: [0m>=2.0,<6.5.0
+[1m   ADVISORY: [0mWhen Tornado's multipart/form-data parser encounters
+   certain errors, it logs a warning but continues trying to parse the...
+[1m   CVE-2025-47287[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/77319/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 77319 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in requests version 2.32.3[0m
+[1m   Vulnerability ID: [0m77680
+[1m   Affected spec: [0m<2.32.4
+[1m   ADVISORY: [0mRequests is an HTTP library. Due to a URL parsing issue,
+   Requests releases prior to 2.32.4 may leak .netrc credentials to third...
+[1m   CVE-2024-47081[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/77680/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 77680 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in requests version 2.32.3[0m
+[1m   Vulnerability ID: [0m90553
+[1m   Affected spec: [0m<2.33.0
+[1m   ADVISORY: [0mAffected versions of the requests package are vulnerable
+   to Insecure Temporary File reuse due to predictable temporary filename...
+[1m   CVE-2026-25645[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/90553/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 90553 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pillow version 10.4.0[0m
+[1m   Vulnerability ID: [0m86269
+[1m   Affected spec: [0m>=10.3.0,<12.1.1
+[1m   ADVISORY: [0mAffected versions of the Pillow package are vulnerable
+   to an Out-of-bounds Write issue due to insufficient validation of tile...
+[1m   CVE-2026-25990[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/86269/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 86269 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in gdal version 3.9.3[0m
+[1m   Vulnerability ID: [0m82915
+[1m   Affected spec: [0m<3.12.1
+[1m   ADVISORY: [0mAffected versions of the gdal package are vulnerable to
+   path traversal due to insufficient path sanitization in multiple drivers.
+[1m   PVE-2025-82915[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/82915/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 82915 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in weasyprint version 62.3[0m
+[1m   Vulnerability ID: [0m84841
+[1m   Affected spec: [0m<68.0
+[1m   ADVISORY: [0mAffected versions of the weasyprint package are
+   vulnerable to Server-Side Request Forgery (SSRF) due to insufficient...
+[1m   CVE-2025-68616[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/84841/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 84841 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in validators version 0.20.0[0m
+[1m   Vulnerability ID: [0m61924
+[1m   Affected spec: [0m>=0.11.0,<0.21.0
+[1m   ADVISORY: [0mValidators 0.21.0 includes a fix for CVE-2023-45813:
+   Inefficient Regular Expression Complexity in...
+[1m   CVE-2023-45813[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/61924/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 61924 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in markdown version 3.7[0m
+[1m   Vulnerability ID: [0m88434
+[1m   Affected spec: [0m<3.8.1
+[1m   ADVISORY: [0mAffected versions of the Markdown package are vulnerable
+   to an Uncaught Exception due to improper handling of malformed HTML-...
+[1m   CVE-2025-69534[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/88434/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 88434 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in setuptools version 74.1.2[0m
+[1m   Vulnerability ID: [0m76752
+[1m   Affected spec: [0m<78.1.1
+[1m   ADVISORY: [0mAffected versions of Setuptools are vulnerable to Path
+   Traversal via PackageIndex.download(). The impact is Arbitrary File...
+[1m   CVE-2025-47273[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/76752/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 76752 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in pyramid version 2.0[0m
+[1m   Vulnerability ID: [0m60688
+[1m   Affected spec: [0m>=2.0a0,<2.0.2
+[1m   ADVISORY: [0mPyramid 2.0.2 includes a fix for CVE-2023-40587: A path
+   traversal vulnerability in Pyramid versions 2.0.0 and 2.0.1 impacts...
+[1m   CVE-2023-40587[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/60688/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 60688 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in sqlparse version 0.5.2[0m
+[1m   Vulnerability ID: [0mSFTY-20260213-96637
+[1m   Affected spec: [0m<=0.5.3
+[1m   ADVISORY: [0m### SummaryThe below gist hangs while attempting to
+   format a long list of tuples.This was found while [drafting a...
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/SFTY-20260213-96637/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id
+   SFTY-20260213-96637 in safety’s ignore command-line argument or add the
+   ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in sqlparse version 0.5.2[0m
+[1m   Vulnerability ID: [0m82038
+[1m   Affected spec: [0m<0.5.4
+[1m   ADVISORY: [0mAffected versions of this package are vulnerable to
+   Denial of Service (DoS) attacks due to Algorithmic Complexity. The SQL...
+[1m   PVE-2025-82038[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/82038/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 82038 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in ecdsa version 0.19.0[0m
+[1m   Vulnerability ID: [0m64459
+[1m   Affected spec: [0m>=0
+[1m   ADVISORY: [0mThe python-ecdsa library, which implements ECDSA
+   cryptography in Python, is vulnerable to the Minerva attack...
+[1m   CVE-2024-23342[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/64459/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 64459 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in ecdsa version 0.19.0[0m
+[1m   Vulnerability ID: [0m64396
+[1m   Affected spec: [0m>=0
+[1m   ADVISORY: [0mEcdsa does not protects against side-channel attacks.
+   This is because Python does not provide side-channel secure primitives...
+[1m   PVE-2024-64396[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/64396/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 64396 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in ecdsa version 0.19.0[0m
+[1m   Vulnerability ID: [0m90743
+[1m   Affected spec: [0m<0.19.2
+[1m   ADVISORY: [0mAffected versions of the python-ecdsa package are
+   vulnerable to Denial of Service due to improper validation of DER...
+[1m   CVE-2026-33936[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/90743/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 90743 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in urllib3 version 2.0.7[0m
+[1m   Vulnerability ID: [0m71608
+[1m   Affected spec: [0m>=2.0.0a1,<=2.2.1
+[1m   ADVISORY: [0mUrllib3's ProxyManager ensures that the Proxy-
+   Authorization header is correctly directed only to configured proxies....
+[1m   CVE-2024-37891[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/71608/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 71608 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in urllib3 version 2.0.7[0m
+[1m   Vulnerability ID: [0m82331
+[1m   Affected spec: [0m>=1.24,<2.6.0
+[1m   ADVISORY: [0mAffected versions of the urllib3 package are vulnerable
+   to Denial of Service (DoS) due to allowing an unbounded number of...
+[1m   CVE-2025-66418[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/82331/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 82331 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in urllib3 version 2.0.7[0m
+[1m   Vulnerability ID: [0m82332
+[1m   Affected spec: [0m>=1.0,<2.6.0
+[1m   ADVISORY: [0mAffected versions of the urllib3 package are vulnerable
+   to Denial of Service (DoS) due to improper handling of highly...
+[1m   CVE-2025-66471[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/82332/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 82332 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in urllib3 version 2.0.7[0m
+[1m   Vulnerability ID: [0m84031
+[1m   Affected spec: [0m>=1.22,<2.6.3
+[1m   ADVISORY: [0mAffected versions of the urllib3 package are vulnerable
+   to Denial of Service (DoS) due to redirect handling that drains...
+[1m   CVE-2026-21441[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/84031/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 84031 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in urllib3 version 2.0.7[0m
+[1m   Vulnerability ID: [0m77744
+[1m   Affected spec: [0m<2.5.0
+[1m   ADVISORY: [0murllib3 is a user-friendly HTTP client library for
+   Python. Prior to 2.5.0, it is possible to disable redirects for all...
+[1m   CVE-2025-50181[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/77744/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 77744 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in h2 version 4.1.0[0m
+[1m   Vulnerability ID: [0m79077
+[1m   Affected spec: [0m<4.3.0
+[1m   ADVISORY: [0mAffected versions of the h2 package are vulnerable to
+   HTTP Request Smuggling due to improper validation of illegal characters...
+[1m   CVE-2025-57804[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/79077/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 79077 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in wheel version 0.45.0[0m
+[1m   Vulnerability ID: [0m84961
+[1m   Affected spec: [0m>=0.40.0,<=0.46.1
+[1m   ADVISORY: [0mAffected versions of the wheel package are vulnerable to
+   Path Traversal due to applying extracted file permissions using an...
+[1m   CVE-2026-24049[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/84961/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 84961 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in scapy version 2.6.1[0m
+[1m   Vulnerability ID: [0m80587
+[1m   Affected spec: [0m<=2.6.1
+[1m   ADVISORY: [0mAffected versions of the scapy package are vulnerable to
+   Deserialization of Untrusted Data due to the session-loading feature...
+[1m   PVE-2025-80587[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/80587/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 80587 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in brotli version 1.1.0[0m
+[1m   Vulnerability ID: [0m81038
+[1m   Affected spec: [0m<=1.1.0
+[1m   ADVISORY: [0mAffected versions of the brotli package are vulnerable
+   to Denial of Service (DoS) due to unbounded memory allocation during...
+[1m   CVE-2025-6176[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/81038/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 81038 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in capstone version 4.0.2[0m
+[1m   Vulnerability ID: [0m73501
+[1m   Affected spec: [0m<6.0.0alpha1
+[1m   ADVISORY: [0mAffected versions of Capstone are potentially vulnerable
+   to buffer overflow.
+[1m   PVE-2024-73501[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/73501/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 73501 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in protobuf version 4.21.12[0m
+[1m   Vulnerability ID: [0m77740
+[1m   Affected spec: [0m>=2.4.1,<4.25.8
+[1m   ADVISORY: [0mAffected versions of this package are vulnerable to a
+   potential Denial of Service (DoS) attack due to unbounded recursion...
+[1m   CVE-2025-4565[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/77740/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 77740 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in protobuf version 4.21.12[0m
+[1m   Vulnerability ID: [0m85151
+[1m   Affected spec: [0m<5.29.6
+[1m   ADVISORY: [0mAffected versions of the protobuf package are vulnerable
+   to Denial of Service (DoS) due to missing recursion depth accounting...
+[1m   CVE-2026-0994[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/85151/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 85151 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+[31m-> Vulnerability found in gitpython version 3.1.37[0m
+[1m   Vulnerability ID: [0m63687
+[1m   Affected spec: [0m<3.1.41
+[1m   ADVISORY: [0mGitPython 3.1.41 fixes a vulnerability (CVE-2024-22190)
+   involving an untrusted search path issue on Windows, which could allow...
+[1m   CVE-2024-22190[0m
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/63687/97c[0m
+   To ignore this vulnerability, use PyUp vulnerability id 63687 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
++==============================================================================+
+   [32m[1mREMEDIATIONS[0m
+
+  139 vulnerabilities were reported in 48 packages. For detailed remediation 
+  & fix recommendations, upgrade to a commercial license. 
+
++==============================================================================+
+
+ Scan was completed. 139 vulnerabilities were reported. 
+
++==============================================================================+[0m
+
+
+[33m[1m+===========================================================================================================================================================================================+[0m
+
+
+[31m[1mDEPRECATED: [0m[33m[1mthis command (`check`) has been DEPRECATED, and will be unsupported beyond 01 June 2024.[0m
+
+
+[32mWe highly encourage switching to the new [0m[32m[1m`scan`[0m[32m command which is easier to use, more powerful, and can be set up to mimic the deprecated command if required.[0m
+
+
+[33m[1m+===========================================================================================================================================================================================+[0m
+
+
